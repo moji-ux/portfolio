@@ -59,7 +59,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-          name: deployment-package
 
   # Deployment job
   deploy_github_pages:
@@ -81,7 +80,6 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
-          name: deployment-package
           path: ./dist
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
