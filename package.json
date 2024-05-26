@@ -1,7 +1,7 @@
 {
   "title": "MozhdehBarzi",
   "name": "mozhdehbarzi",
-  "version": "7.8.0",
+  "version": "7.9.0",
   "scripts": {
     "build": "yarn clean && yarn build:pug && yarn build:scss && yarn build:scripts && yarn build:assets",
     "build:assets": "node scripts/build-assets.js",
