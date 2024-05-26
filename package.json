@@ -24,7 +24,7 @@
     "template"
   ],
   "homepage": "https://barzi.site",
-  "license": "MozhdehBarzi",
+  "license": "",
   "author": "Mozhdeh Barzi",
   "dependencies": {
     "bootstrap": "5.1.3"
