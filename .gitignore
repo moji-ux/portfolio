@@ -1,0 +1,11 @@
+/.DS_Store
+**/.DS_Store
+/LICENSE
+/dist
+/node_modules
+src/assets/.DS_Store
+src/.DS_Store
+src/assets/img/.DS_Store
+src/assets/img/.DS_Store
+src/assets/img/.DS_Store
+src/scss/sections/_masthead.scss
