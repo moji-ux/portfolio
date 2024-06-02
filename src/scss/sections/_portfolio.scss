@@ -23,7 +23,8 @@
       left: 0;
       transition: $transition-base;
       opacity: 0;
-      background-color: fade-out($primary, 0.4);
+      background-color: fade-out(rgba($primary, .7), 0.4);
+      padding-top: 50px;
 
       &:hover {
         opacity: 1;
