@@ -95,20 +95,16 @@ html(lang='en')
                     .row.justify-content-center.mb-4
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#'+portfolio+'Modal')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
-                                .portfolio-item-caption-content.text-center.text-white
-                                    | #{portfolio}
+                                .col
+                                    img.img-fluid(src='assets/img/portfolio/'+portfolio+'/caption.png', alt=portfolio+'-1')
                             .row.mb-2
                                 h2 #{portfolio}
                                 if num[0]
                                     .col
                                         img.img-fluid(src='assets/img/portfolio/'+portfolio+"/"+(num[3] || 'cover.png'), alt=portfolio+'-cover')
                                 else
-                                    .col-8
+                                    .col
                                         img.img-fluid(src='assets/img/portfolio/'+portfolio+"/"+(num[3] || 'cover.png'), alt=portfolio+'-cover')
-                                    .col-4
-                                        img.img-fluid(src='assets/img/portfolio/'+portfolio+'/1.png', alt=portfolio+'-1')
-                                        img.img-fluid(src='assets/img/portfolio/'+portfolio+'/2.png', alt=portfolio+'-2')
-                                        img.img-fluid(src='assets/img/portfolio/'+portfolio+'/3.png', alt=portfolio+'-3')
 
         // About Section
         section#about.page-section
